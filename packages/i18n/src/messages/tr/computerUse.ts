@@ -1,0 +1,43 @@
+import type { PartialTranslation } from "../../message";
+import type { messages as source } from "../en/computerUse";
+
+export const messages = {
+  "computerUse.permission.screenRecording.title": "Ekran Kaydı",
+  "computerUse.permission.screenRecording.description": "Element'un uygulama pencerelerini görmesini sağlar.",
+  "computerUse.permission.screenRecording.pane": "Ekran ve Sistem Sesi Kaydı",
+  "computerUse.permission.accessibility.title": "Erişilebilirlik",
+  "computerUse.permission.accessibility.description": "Element'un tıklamasını ve yazmasını sağlar.",
+  "computerUse.permission.accessibility.pane": "Erişilebilirlik",
+  "computerUse.error.check": "Element, Bilgisayar Kullanımını denetleyemedi.",
+  "computerUse.error.openSettings": "Element, Sistem Ayarlarını açamadı.",
+  "computerUse.error.startDriver": "Element, Bilgisayar Kullanımı sürücüsünü başlatamadı.",
+  "computerUse.checkAgain": "Tekrar kontrol et",
+  "computerUse.checking": "Bilgisayar Kullanımı denetleniyor",
+  "computerUse.unavailable.title": "Bilgisayar Kullanımı henüz mevcut değil",
+  "computerUse.permissions.title": "Sistem izinleri",
+  "computerUse.permissions.description": "İzinler macOS tarafından yönetilir.",
+  "computerUse.ready.title": "Bilgisayar Kullanımı hazır",
+  "computerUse.ready.description":
+    "Element bu bilgisayardaki uygulamaları görebilir ve onlarla etkileşime girebilir. Bu sistem fazladan izin istemez.",
+  "computerUse.openSettingsFailed.title": "Sistem Ayarları açılamadı",
+  "computerUse.compact.title": "Bilgisayar Kullanımını etkinleştir",
+  "computerUse.compact.description":
+    "Element'un bu bilgisayardaki uygulamaları görmesine ve etkileşime girmesine izin verin.",
+  "computerUse.granted": "Verildi",
+  "computerUse.opening": "Açılıyor…",
+  "computerUse.manage": "Yönet",
+  "computerUse.grant": "İzin ver",
+  "computerUse.manageLabel": "{permission} iznini yönet",
+  "computerUse.grantLabel": "{permission} iznini ver",
+  "computerUse.help.title": "{permission} iznini aç",
+  "computerUse.help.paneOpen": "Sistem Ayarları {pane} bölümünde açık.",
+  "computerUse.help.dragLabel": "{name} uygulamasını Sistem Ayarlarına sürükleyin veya Finder'da göstermek için basın",
+  "computerUse.help.dragToAdd": "Eklemek için sürükleyin",
+  "computerUse.help.findInList": "Listede {name} uygulamasını bulun.",
+  "computerUse.help.dragIntoList": "{name}.app dosyasını listeye sürükleyin.",
+  "computerUse.help.turnOn": "Anahtarı açın.",
+  "computerUse.help.showInFinder": "Finder'da göster",
+  "computerUse.help.revealFailed": "Uygulama Finder'da gösterilemedi.",
+  "computerUse.help.dragFailed": "Uygulama sürüklenemedi.",
+  "computerUse.highlight.working": "Element {title} içinde çalışıyor",
+} as const satisfies PartialTranslation<typeof source>;
