@@ -1,12 +1,12 @@
-OpenBot
+Element Agents
 Copyright 2026 Synthetify Labs spółka z ograniczoną odpowiedzialnością
 
 This product includes software developed by Synthetify Labs spółka z ograniczoną odpowiedzialnością.
 
-For a commercial license, contact licenses@openbot.run.
+For a commercial license, contact licenses@Element Agents.run.
 
-OpenBot can download optional Codex, Claude, and Grok provider runtimes directly from their vendors.
-These optional runtimes are not included in the OpenBot application package. Their vendor licenses
+Element Agents can download optional Codex, Claude, and Grok provider runtimes directly from their vendors.
+These optional runtimes are not included in the Element Agents application package. Their vendor licenses
 are installed with each downloaded runtime.
 
 This product includes Blobatar 0.2.0.
