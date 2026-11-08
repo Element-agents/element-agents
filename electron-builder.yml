@@ -6,7 +6,7 @@ protocols:
     schemes:
       - element
 asar: true
-artifactName: ${productName}-${version}-${arch}.${ext}
+artifactName: Element-${version}-${arch}.${ext}
 electronUpdaterCompatibility: ">=2.16"
 electronFuses:
   resetAdHocDarwinSignature: true

@@ -19,17 +19,17 @@ function releaseTarget(platform: NodeJS.Platform, arch: string): ReleaseTarget |
   if (platform === "linux")
     return {
       feed: arch === "arm64" ? "latest-linux-arm64.yml" : "latest-linux.yml",
-      asset: (version) => `Element Agents-${version}-${arch}.AppImage`,
+      asset: (version) => `Element-${version}-${arch}.AppImage`,
     };
   if (platform === "darwin")
     return {
       feed: "latest-mac.yml",
-      asset: (version) => `Element Agents-${version}-${arch}.zip`,
+      asset: (version) => `Element-${version}-${arch}.zip`,
     };
   if (platform === "win32" && arch === "x64")
     return {
       feed: "latest.yml",
-      asset: (version) => `Element Agents-${version}-x64.exe`,
+      asset: (version) => `Element-${version}-x64.exe`,
     };
   return null;
 }
