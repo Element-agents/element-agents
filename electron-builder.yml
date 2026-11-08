@@ -20,8 +20,8 @@ electronFuses:
   grantFileProtocolExtraPrivileges: false
 publish:
   provider: github
-  owner: your-github-owner
-  repo: your-github-repo
+  owner: Element-agents
+  repo: element-agents
 files:
   - out/**/*
   - package.json
