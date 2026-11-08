@@ -8,4 +8,4 @@ Download the latest release from GitHub Releases.
 
 ## License
 
-PolyForm Noncommercial 1.0.0
+AGPL-3.0
